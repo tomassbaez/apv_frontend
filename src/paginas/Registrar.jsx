@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { useState } from 'react';
 import clienteAxios from '../config/axios';
-import Alerta from "../components/Alerta";
+import Alerta from "../components/alerta";
 const Registrar = () => {
     const [ nombre, setNombre ] = useState('')
     const [ email, setEmail ] = useState('')
